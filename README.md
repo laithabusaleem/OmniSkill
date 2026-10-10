@@ -266,3 +266,10 @@ Third-party dependency and skill-source notes: [docs/THIRD_PARTY.md](./docs/THIR
 ## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md). Security reporting: [SECURITY.md](./SECURITY.md).
+
+---
+
+<p align="center">
+  <strong>Built by Laith Abu-Saleem</strong><br/>
+  <a href="https://github.com/laithabusaleem">github.com/laithabusaleem</a>
+</p>
