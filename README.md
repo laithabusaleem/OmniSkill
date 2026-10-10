@@ -251,9 +251,9 @@ See `docs/qa/QA-02-regression.md` for the regression strategy and measured cover
 
 - Optional LLM-assisted matching is not implemented (by design for 0.1.0).
 - Live GitHub smoke tests are not required in CI; HTTP behavior is covered with fixtures.
-- Cross-platform CI is defined in `.github/workflows/ci.yml` but only verified after that workflow actually runs on GitHub.
+- Cross-platform CI workflow file is included in the repo source; enable/push it after granting the GitHub `workflow` OAuth scope if Actions are required.
 - Seed skills include offline matching metadata; run `add`/`sync` to obtain real upstream instruction bodies.
-- No public git remote or npm publication has been performed from this audit work.
+- Not published to npm yet; install from this GitHub source checkout.
 
 Planned vs implemented items: [ROADMAP.md](./ROADMAP.md).
 
