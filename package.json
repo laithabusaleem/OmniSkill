@@ -1,0 +1,61 @@
+{
+  "name": "omniskill",
+  "version": "0.1.0",
+  "description": "Universal AI capability discovery and workflow orchestration CLI",
+  "type": "module",
+  "bin": {
+    "omniskill": "./dist/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laithabusaleem/OmniSkill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/laithabusaleem/OmniSkill/issues"
+  },
+  "homepage": "https://github.com/laithabusaleem/OmniSkill#readme",
+  "author": "Laith Abu-Saleem",
+  "files": [
+    "dist",
+    "assets/branding",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsc && node scripts/copy-assets.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:live-github": "vitest run tests/integration/github-live.test.ts",
+    "cli": "node dist/cli.js",
+    "prepack": "npm run build"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "cli",
+    "ai",
+    "ai-skills",
+    "skills",
+    "claude-code",
+    "cursor",
+    "developer-tools",
+    "typescript",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@vitest/coverage-v8": "^3.2.7",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.8"
+  }
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" role="img" aria-labelledby="title desc">
+  <title id="title">OmniSkill logo</title>
+  <desc id="desc">OmniSkill wordmark with modular routing mark for documentation and repository headers.</desc>
+  <g transform="translate(0,0)">
+    <rect width="64" height="64" rx="12" fill="#0F1419"/>
+    <g fill="none" stroke="#3DDC97" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="32" cy="32" r="5" fill="#3DDC97" stroke="none"/>
+      <path d="M32 27V14"/>
+      <path d="M32 37V50"/>
+      <path d="M27 32H14"/>
+      <path d="M37 32H50"/>
+      <rect x="10" y="10" width="8" height="8" rx="1.5" fill="#E8EEF2" stroke="none"/>
+      <rect x="46" y="10" width="8" height="8" rx="1.5" fill="#E8EEF2" stroke="none"/>
+      <rect x="10" y="46" width="8" height="8" rx="1.5" fill="#E8EEF2" stroke="none"/>
+      <rect x="46" y="46" width="8" height="8" rx="1.5" fill="#E8EEF2" stroke="none"/>
+    </g>
+  </g>
+  <text x="80" y="42" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="650" fill="#0F1419">OmniSkill</text>
+</svg>

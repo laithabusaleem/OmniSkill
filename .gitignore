@@ -1,0 +1,30 @@
+# Dependencies and build
+node_modules/
+dist/
+*.tgz
+.vitest/
+
+# Coverage and logs
+coverage/
+*.log
+
+# Local OmniSkill project state (never publish caches/bundles)
+.omni/
+
+# Secrets / local env
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+*~
+
+# Temp
+tmp/
+.temp/
+*.bak
